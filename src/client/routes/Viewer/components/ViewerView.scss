@@ -1,0 +1,86 @@
+
+.viewer-view-container{
+  height: clac(100vh);
+
+}
+
+.viewer-view {
+  height: 100%;
+  background-color: #292929;
+  position: relative;
+  
+}
+
+.viewer-view {
+  height: calc(100vh - 70px - 65px);
+  background-color: #292929;
+  position: relative;
+  
+}
+
+.TimeLineContainer{
+  height: 70px;
+}
+
+.chart-stack-panel{
+background-color: #292929
+
+}
+
+.layout-pane{
+  background-color: #292929;
+
+}
+
+.splitter-layout {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.splitter-layout .layout-pane {
+  position: relative;
+  flex: 0 0 auto;
+  overflow: auto;
+}
+
+.splitter-layout .layout-pane.layout-pane-primary {
+  flex: 1 1 auto;
+}
+
+.splitter-layout > .layout-splitter {
+  flex: 0 0 auto;
+  width: 4px;
+  height: 100%;
+  cursor: col-resize;
+  background-color: #404040;
+}
+
+.splitter-layout .layout-splitter:hover {
+  background-color: #464646;
+}
+
+.splitter-layout.layout-changing {
+  cursor: col-resize;
+}
+
+.splitter-layout.layout-changing > .layout-splitter {
+  background-color: #464646;
+}
+
+.splitter-layout.splitter-layout-vertical {
+  flex-direction: column;
+}
+
+.splitter-layout.splitter-layout-vertical.layout-changing {
+  cursor: row-resize;
+}
+
+.splitter-layout.splitter-layout-vertical > .layout-splitter {
+  width: 100%;
+  height: 4px;
+  cursor: row-resize;
+}

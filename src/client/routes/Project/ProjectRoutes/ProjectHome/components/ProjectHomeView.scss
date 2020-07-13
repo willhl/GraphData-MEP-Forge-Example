@@ -1,0 +1,54 @@
+.projecthome-container {
+  display: flex;
+
+}
+
+.projecthome-column {
+  flex: 50%;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.left {
+  text-align: left;
+  flex: 30%;
+}
+
+.mlabel{
+  font-weight: normal;
+}
+
+.right {
+text-align: left;
+}
+
+.phome-link{
+  color:inherit;
+}
+
+.project-home-model{
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+.home-list{
+  padding: 5px;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 5px;
+}
+
+.project-home-model:hover{
+  background-color:#ebf2f4;
+  box-shadow: 1px 2px #232323;
+}
+
+.url-thumbnail {
+  transition: transform .2s ease-in-out;
+  max-width: 100%;
+  width: 115px;
+  height: 115px;
+  margin: 4px;
+}

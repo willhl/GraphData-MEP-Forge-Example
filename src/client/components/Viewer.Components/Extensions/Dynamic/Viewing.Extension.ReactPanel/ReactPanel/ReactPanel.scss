@@ -1,0 +1,13 @@
+.react-docking-panel {
+  height: 600px;
+  width: 400px;
+  resize: auto;
+  left: 10px;
+  top: 10px;
+
+  .content {
+    height: calc(100% - 70px);
+    background-color: transparent;
+
+  }
+}

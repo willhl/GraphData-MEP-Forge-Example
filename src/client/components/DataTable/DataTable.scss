@@ -1,0 +1,57 @@
+.reactdatagrid-container{
+    width: calc(100%);
+    height: calc(100%);
+  }
+  
+
+.react-grid-Container {
+  clear: both;
+  margin-top: 0;
+  padding: 0;
+  width: calc(100%);
+  height: calc(100%);
+}
+
+.react-grid-Main {
+  color: initial;
+  padding: 0px;
+  outline: 1px solid #0f5e92;
+  clear : both;
+  width: calc(100%);
+  height: calc(100%);
+} 
+
+.react-grid-Grid {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  resize:auto;
+  overflow: hidden;
+  outline: 0px; 
+  width: calc(100%);
+  height: calc(100%);
+}
+
+.react-grid-Canvas {
+  background-color: rgba(34, 34, 34, 0.94) ;
+
+}
+
+.react-grid-Viewport {
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none;   /* Chrome/Safari/Opera */
+  -khtml-user-select: none;    /* Konqueror */
+  -moz-user-select: none;      /* Firefox */
+  -ms-user-select: none;       /* Internet Explorer/Edge */
+  user-select: none;           /* Non-prefixed version, currently
+                                    not supported by any browser */
+   resize:auto;           
+}
+
+.react-grid-Cell{
+  text-align: start 
+
+}

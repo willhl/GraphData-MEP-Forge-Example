@@ -1,0 +1,188 @@
+.dashboard {
+    background-color: #343334;
+    overflow: visible;
+    height: calc(100vh);
+  }
+
+  .newbucket{
+    background-color: white;
+    border-radius: 4px;
+    overflow: hidden;
+    margin: 15px;
+  }
+
+.dashboard .models .responsive-grid .bucket-item {
+    text-decoration: none;
+    display: inline-block;
+    margin-bottom: 4px;
+    border: 1px solid #EAEAEA;
+    background: #b3b3b3;
+    margin-right: 10px;
+    margin-left: 10px;
+    padding: 10px;
+    border-radius: 4px;
+    color: #606060;
+  }
+
+.button {
+    background-color: white;
+    border-radius: 4px;
+    overflow: hidden;
+    margin: 15px;
+  }
+
+  .dashboard .models .responsive-grid img {
+    transition: transform .2s ease-in-out;
+    max-width: 100%;
+    display: block;
+    border: 1px solid #EAEAEA;
+    width: 115px;
+    height: 115px;
+    margin: 4px;
+  }
+
+  .dashboard .models .responsive-grid figure {
+    overflow: hidden;
+    height: 150px;
+    margin: 0;
+  }
+
+  .bucket-item .title {
+    margin-bottom: 20px;
+    border-bottom: 2px solid #EAEAEA;
+    font-weight: bold;
+    font-size: 120%;
+    text-align: center;
+    overflow: hidden;
+    padding: 11px 0;
+  }
+
+
+
+
+
+  .dashboard .models .responsive-grid a:nth-of-type(4n),
+  .dashboard .models .responsive-grid a:first-child {
+    margin-left: 0;
+  }
+
+  .dashboard .models .responsive-grid a:nth-of-type(3n) {
+    margin-right: 0;
+  }
+  @media screen and (min-width: 460px) {
+
+    .dashboard .models {
+      border-radius: 4px;
+      position: absolute;
+      top: calc(30% - 200px);
+      left: calc(50% - 225px);
+      overflow: auto;
+      // height: 260px;;
+      // width: 450px;
+    }
+  
+    .dashboard .models .responsive-grid a {
+      text-decoration: none;
+      display: inline-block;
+      margin-bottom: 4px;
+      margin-right: 10px;
+      margin-left: 10px;
+      color: #606060;
+      width: 125px;
+    }
+  
+    .dashboard .models .responsive-grid img {
+      transition: transform .2s ease-in-out;
+      max-width: 100%;
+      display: block;
+      border: 1px solid #EAEAEA;
+      width: 115px;
+      height: 115px;
+      margin: 4px;
+    }
+  
+    .dashboard .models .responsive-grid figure {
+      overflow: hidden;
+      height: 150px;
+      margin: 0;
+    }
+  
+    .dashboard .models .title {
+      margin-bottom: 20px;
+      border-bottom: 2px solid #EAEAEA;
+      text-align: center;
+      overflow: hidden;
+      padding: 11px 0;
+    }
+  
+    .dashboard .models .responsive-grid a:nth-of-type(4n),
+    .dashboard .models .responsive-grid a:first-child {
+      margin-left: 0;
+    }
+  
+    .dashboard .models .responsive-grid a:nth-of-type(3n) {
+      margin-right: 0;
+    }
+  }
+
+@media screen and (max-width: 459px) {
+
+  .dashboard .models {
+    z-index: 2;
+    border-radius: 4px;
+    position: absolute;
+    border: 1px solid #b3b3b3;
+    top: calc(40% - 250px);
+    left: calc(50% - 150px);
+    overflow: auto;
+    height: 260px;
+    width: 300px;
+  }
+
+  .dashboard .models .responsive-grid a {
+    text-decoration: none;
+    display: inline-block;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    color: #606060;
+    width: 125px;
+    height: 125px;
+  }
+
+  .dashboard .models .responsive-grid img {
+    transition: transform .2s ease-in-out;
+    max-width: 100%;
+    display: block;
+    border: none;
+    width: 115px;
+    height: 115px;
+    margin: 4px;
+  }
+
+  .dashboard .models .responsive-grid figure {
+    background-color: white;
+    border-radius: 4px;
+    overflow: hidden;
+    height: 150px;
+    margin: 0;
+  }
+
+  .dashboard .models .title {
+    border-bottom: 1px solid #cccccc;
+    margin-bottom: 10px;
+    text-align: center;
+    overflow: hidden;
+    padding-top: 3px;
+    height: 30px;
+  }
+
+  .dashboard .models .responsive-grid a:nth-of-type(2n + 1),
+  .dashboard .models .responsive-grid a:first-child {
+    margin-left: 0;
+  }
+
+  .dashboard .models .responsive-grid a:nth-of-type(2n) {
+    margin-right: 0;
+  }
+}
