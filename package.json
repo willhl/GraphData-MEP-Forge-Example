@@ -61,7 +61,7 @@
     "debounce": "^1.2.0",
     "deepmerge": "^2.2.1",
     "easing-js": "^1.1.2",
-    "express": "^4.16.4",
+    "express": "^4.17.3",
     "express-session": "^1.16.1",
     "forge-apis": "0.4.1",
     "griddle-react": "^1.13.1",
